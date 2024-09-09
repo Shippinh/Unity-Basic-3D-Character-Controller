@@ -14,7 +14,7 @@ public class CameraController : MonoBehaviour
     private float yaw = 0f, pitch = 0f;
     private GameObject target;
 
-    // Saving computation power with rotation limits, probably will backfire when it'll become an option in Settings
+    // Saving computation power with rotation limits, probably will backfire when mouse sensitivity becomes an option in Settings
     void Start()
     {
         (minRotationY, maxRotationY) = (minRotationY / cameraRotationSpeed, maxRotationY / cameraRotationSpeed);
